@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - A Simple Personal Blog</title>
+    <meta name="description" content="A simple, responsive blog built with static HTML and CSS">
+    <meta property="og:title" content="My Blog - A Simple Personal Blog">
+    <meta property="og:description" content="A simple, responsive blog built with static HTML and CSS">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">
+                <a href="index.html">My Blog</a>
+            </h1>
+            <p class="site-subtitle">A simple place to share thoughts and ideas</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="posts">
+                <h2>Recent Posts</h2>
+                <article class="post-preview">
+                    <header class="post-header">
+                        <h3 class="post-title">
+                            <a href="posts/hello-world.html">Hello World</a>
+                        </h3>
+                        <time class="post-date" datetime="2024-01-01">January 1, 2024</time>
+                    </header>
+                    <p class="post-excerpt">Welcome to my new blog! This is the first post where I introduce myself and share what this blog is all about.</p>
+                    <a href="posts/hello-world.html" class="read-more">Read more →</a>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+            <p><a href="https://github.com/dction123/mvpp2" target="_blank" rel="noopener">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
